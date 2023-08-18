@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
-import { testFunc } from 'laogao-test-ui'
+import { testFunc } from 'epsplanet-bwl'
 
 testFunc()
 
@@ -13,10 +13,7 @@ testFunc()
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
       <Test />
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
+      <lg-earth />
     </div>
   </header>
 

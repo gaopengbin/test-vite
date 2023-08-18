@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "earthsdk": "^1.7.16",
-    "laogao-test-ui": "file:../vite-ui/laogao-test-ui-0.0.1.tgz",
+    "epsplanet-bwl": "file:../vite-ui/epsplanet-bwl-2.0.0.tgz",
     "pinia": "^2.0.36",
     "vite-plugin-dts": "^2.3.0",
     "vue": "^3.3.2",
